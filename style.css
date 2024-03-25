@@ -1,0 +1,101 @@
+
+body{
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgba(35, 35, 35, 0.919);
+  padding:3% 8%;
+  background: #fff;
+  /*background: url(back-4.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;*/
+}
+div {
+  height: auto;
+}
+.title{
+  text-align: center;
+  color: rgba(79, 78, 78, 0.989);
+  font-size: 35px;
+  font-weight: 600;
+}
+.course-info{
+  font-size: 20px;
+  
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+}
+.image{
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+}
+.course-info-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding-top: 40px;
+}
+.course-description{
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  line-height: 2;
+}
+.grading-books{
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  line-height: 2;
+}
+.marks{
+  padding-left: 20px;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 2;
+}
+.resource{
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  line-height: 2;
+}
+.resource-list{
+  text-decoration: none;
+}
+
+.item-class{
+  display: flex;
+  margin-top: 10px;
+  padding: 5px 5px;
+  font-size: 18px;
+}
+@media only screen and (max-width:500px) {
+  body{
+    padding:4% 4%;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .course-info{
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .image{
+    height: 120px;
+  }
+  .course-description{
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .grading-books{
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .marks{
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 1;
+  }
+  .resource{
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+}
